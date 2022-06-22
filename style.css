@@ -21,9 +21,19 @@ html,
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    border: 1px solid green;
 
                 }
+                #im
+                {
+                    margin: 10px;
+                }
+                #container
+                {
+                    height: auto;
+                    width: 100%;
+                    display: flex;
+                }
+
                 .pawn
                 {
                     width: 200px;

@@ -12,7 +12,7 @@
 
     </head>
 
-    <>
+    <body>
         <h1>L-System by TimKim</h1>
         <ul>
             <button onclick="window.location.href='trees.html'">Вперёд >></button>
@@ -25,16 +25,24 @@
             Пешка. У неё очень простые правила.<br>
             Она умеет делать только 1 ход, вперёд "F" [1].<br>
             Если она ещё не ходила, то может сделать 2 хода подряд "FF" [2].<br>
-            А если перед ней слева или справа есть фигура, то она может повернуться на 45 градусов "+" или "-"<br>
+            А если перед ней слева или справа есть фигура,<br>
+            то она может повернуться на 45 градусов "+" или "-"<br>
             и съесть её шагнув вперёд "F" [3].
         </p>
-        <div>
-            <ul>
+        <div id="container">
+            <box id="im">
                 <img class="pawn" src="img/pawn1.jpg" alt="Pawn F">
+                <p>рис.1<br>Пешка делает<br>1 ход</p>
+            </box>
+            <box id="im">
                 <img class="pawn" src="img/pawn2.jpg" alt="Pawn FF">
+                <p>рис.2<br>Пешка делает<br>2 хода вперёд</p>
+            </box>
+            <box id="im">
                 <img class="pawn" src="img/pawn3.jpg" alt="Pawn -F">
-            </ul>ul>
+                <p>рис.1<br>Пешка делает<br>2 хода<br>поворот и вперёд</p>
+            </box>
         </div>
-        </body>
+    </body>
 
 </html>
