@@ -5,7 +5,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
-        
+
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="utf-8" />
         <title>L-System by TimKim</title>
@@ -13,7 +13,23 @@
     </head>
 
     <body>
-        <script src="sketch.js"></script>
+        <h1>L-System by TimKim</h1>
+        <ul>
+            <button onclick="window.location.href='trees.html'">Вперёд >></button>
+        </ul>
+
+        <h2>Что такое L-системы?</h2>
+        <p>
+            Это просто правила перемещения и поворота вокруг своей оси.<br>
+            Например в шахматах.<br>
+            Пешка. У неё очень простые правила.<br>
+            Она умеет делать только 1 ход, вперёд "F" [1].<br>
+            Если она ещё не ходила, то может сделать 2 хода подряд "FF" [2].<br>
+            А если перед ней слева или справа есть фигура, то она может повернуться на 45 градусов "+" или "-"<br>
+            и съесть её шагнув вперёд "F" [3].
+        </p>
+        <img src="img/pawn.png" alt="Pawn L-System">
+
     </body>
 
 </html>

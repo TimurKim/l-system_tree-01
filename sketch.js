@@ -107,6 +107,8 @@ function turtle ()
 
 function setup ()
 {
+    // myCanvas = createCanvas( winWidth, winHeight );
+    // myCanvas.parent( "canvas" );
     createCanvas( 400, 400 );//windowWidth, windowHeight );
     background( 51 );
     createP( axiom );
