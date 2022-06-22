@@ -1,12 +1,17 @@
 html,
                 body
                 {
+                    background-color: greenyellow;
                     margin: 5;
                     padding: 0;
                 }
                 h1
                 {
                     margin-left: 50px;
+                }
+                p
+                {
+                    font-size: 20px;
                 }
                 canvas
                 {
@@ -18,4 +23,9 @@ html,
                     align-items: center;
                     border: 1px solid green;
 
+                }
+                .pawn
+                {
+                    width: 200px;
+                    height: 200px;
                 }

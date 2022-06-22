@@ -5,8 +5,6 @@
 
 const axiom = "F";
 let sentence = axiom;
-windowWidth = window.innerWidth;
-windowHeight = window.innerHeight - 100;
 
 /* 
 Объявляем правила перемещения:
@@ -67,10 +65,10 @@ function generate ()
 function turtle ()
 {
     // Ставим курсор в начало
-    background( 51 );
+    background( 255 );
     resetMatrix();
     translate( width / 2, height );
-    stroke( 255, 100 );
+    stroke( 0, 100 );
     // И читаем пердложение sentence по буквам
     for ( let i = 0; i < sentence.length; i++ )
     {
@@ -107,10 +105,8 @@ function turtle ()
 
 function setup ()
 {
-    // myCanvas = createCanvas( winWidth, winHeight );
-    // myCanvas.parent( "canvas" );
-    createCanvas( 400, 400 );//windowWidth, windowHeight );
-    background( 51 );
+    createCanvas( 400, 400 );
+    background( 255 );
     createP( axiom );
     turtle();
     let btn = createButton( "generate" );
